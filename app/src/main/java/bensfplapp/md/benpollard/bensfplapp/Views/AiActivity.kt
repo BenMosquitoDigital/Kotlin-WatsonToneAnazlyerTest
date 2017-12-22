@@ -1,28 +1,17 @@
 package bensfplapp.md.benpollard.bensfplapp.Views
 
-import Controller.PersonalityInsight
-import android.app.Activity
-import android.content.ActivityNotFoundException
-import android.content.Intent
 import android.os.Bundle
-import android.speech.RecognizerIntent
 import android.support.design.widget.NavigationView
 import android.support.v4.view.GravityCompat
 import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import bensfplapp.md.benpollard.bensfplapp.R
 
 import kotlinx.android.synthetic.main.activity_ai.*
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.app_bar_main.*
-import kotlinx.coroutines.experimental.CommonPool
-import kotlinx.coroutines.experimental.launch
-import java.util.*
 
 class AiActivity  : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
